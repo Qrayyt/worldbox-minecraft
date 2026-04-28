@@ -1,0 +1,6 @@
+{
+  "worldbox.command.created": "Created city %s",
+  "worldbox.command.info": "%s | pop: %s | chunks: %s | stage: %s | nation: %s",
+  "worldbox.command.not_found": "City not found",
+  "worldbox.command.war": "%s declared war on %s"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "worldbox",
+  "version": "${version}",
+  "name": "WorldBox Fabric",
+  "description": "Living towns, roles, chunk claims, slow construction and war simulation for Minecraft Fabric 1.20.1.",
+  "authors": ["Galenite"],
+  "contact": {
+    "homepage": "https://galenite.ru"
+  },
+  "license": "MIT",
+  "icon": "assets/worldbox/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.galenite.worldbox.WorldBoxMod"],
+    "client": ["ru.galenite.worldbox.client.WorldBoxClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "journeymap": "*"
+  }
+}
